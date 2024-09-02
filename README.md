@@ -3,7 +3,7 @@ curl https://pyenv.run | bash
 sudo nano ~/.bashrc  
 
 下面3行新增到文件最後  
-export PATH="$HOME/.pyenv/bin:$PATH" 
+export PATH="$HOME/.pyenv/bin:$PATH"  
 eval "$(pyenv init --path)"   
 eval "$(pyenv virtualenv-init -)"  
   
