@@ -38,4 +38,5 @@ sh setup.sh
 python -m pip install --upgrade tflite-support==0.4.3  
 python3 detect.py --model efficientdet_lite0.tflite
 
+![image](https://github.com/miyachun/raspberry-pyenv/blob/main/pic.jpg)  
 
