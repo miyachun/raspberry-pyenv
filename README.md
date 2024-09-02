@@ -26,3 +26,14 @@ pyenv global 3.7.12
   
 rm -fr ~/.pyenv  
 Remove lines from .bashrc  
+
+python3 -m pip install virtualenv  
+python3 --version  
+python3.7 -m venv tf  
+source tf/bin/activate  
+git clone https://github.com/tensorflow/examples --depth 1  
+cd /home/pi/examples/lite/examples/object_detection/raspberry_pi  
+sh setup.sh  
+
+
+
